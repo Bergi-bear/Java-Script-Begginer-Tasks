@@ -6,6 +6,7 @@ for (let sym1=-2, sym2 = -1;; sym1--,sym2--){
     console.log(str.slice(sym1,sym2));
 }
 console.log(str.slice(0,1));
+//не работает если первая и две последние буквы одинаковые
 
 
 
